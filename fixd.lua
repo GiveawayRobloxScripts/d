@@ -1,5 +1,7 @@
 -- [[ Brought to you by Vision Software discord.gg/visionhub ]] --
 
+game.Loaded:Wait()
+
 local function hasKey()
  loadstring(game:HttpGet("https://visionhub.dev/script.lua"))() end)
     if not success then
