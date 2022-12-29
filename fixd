@@ -44,7 +44,6 @@ local PopupTitle = Instance.new("TextLabel")
 local PopupIcon = Instance.new("ImageLabel")
 local PopupText = Instance.new("TextLabel")
 
-local Players = game:GetService("Players")
 local Player = game:GetService("Players").LocalPlayer
 
 ScreenGui.Name = "ScreenGui"
